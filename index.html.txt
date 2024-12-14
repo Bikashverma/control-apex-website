@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Apex Pvt. Ltd.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header img {
+            max-width: 150px;
+            margin-bottom: 10px;
+        }
+        nav {
+            background-color: #555;
+            overflow: hidden;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #777;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .services, .contact {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        form input, form textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form button {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.jpg" alt="Control Apex Logo">
+    <h1>Control Apex Pvt. Ltd.</h1>
+    <p>Leading Elevator Company in Nepal</p>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>With over 10 years of experience, we have installed over <b>200 lifts</b> and maintain <b>150 lifts</b> under AMC. We are the leading elevator company in Nepal.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Elevator Installation</h3>
+            <p>We provide installation of passenger, hospital, and goods lifts.</p>
+        </div>
+        <div class="card">
+            <h3>Maintenance</h3>
+            <p>Annual Maintenance Contracts (AMC) to keep your lifts operational.</p>
+        </div>
+        <div class="card">
+            <h3>Modernization</h3>
+            <p>Upgrade your existing elevators with the latest technology.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact">
+        <div class="card">
+            <h3>Contact Details</h3>
+            <p><b>Phone:</b> +977-9851193151, +977-9851403151</p>
+            <p><b>Email:</b> info@controlapex.com</p>
+            <p><b>Address:</b> Lazimpat-2, Kathmandu, Nepal</p>
+            <p><b>Facebook:</b> <a href="https://www.facebook.com/ControlApexpvtLtd" target="_blank">Visit Us</a></p>
+        </div>
+        <div class="card">
+            <h3>Contact Form</h3>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Phone" required>
+                <input type="text" placeholder="Country" required>
+                <input type="text" placeholder="Brand Name" required>
+                <textarea rows="4" placeholder="Message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Control Apex Pvt. Ltd. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
